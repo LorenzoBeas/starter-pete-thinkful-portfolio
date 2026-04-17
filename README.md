@@ -25,16 +25,27 @@ This project redesigns Pete's artist portfolio website from a narrow, vertical l
    
 ## Design Decisions
 
+### Header 
+   - Added Flex box property to Header
+   - Changed Font of "Pete | Artist " to align more with the design provided 
+   - Tweaked the padding so that the header elements maintained stylized spacing
+
+
 
 ## Lessons / Challenges
+- Learned that in order to achieve the layout specified in the design the Header flex direction had to be row rather than column 
 
 
+## Github commit history and screenshots illustritating this decision 
+Commit 1: Initializing project with README Requirements 
+Commit 2 : Header modifications
+![Header changes](image-2.png)
 
 
 
 ## AI Tools 
-- Disclosure of all AI Tools and justification for using them 
+- Usage of Claude Haiku 4.5 agent to ask questions: 
+   - How to align elements horizontally in header 
 
-## Justification of Key decisions, challenges , debugging and learning moments
 
-## Github commit history and screenshots illustritating this decision 
+
