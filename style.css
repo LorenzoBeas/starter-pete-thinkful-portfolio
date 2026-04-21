@@ -94,3 +94,19 @@ hr {
 
 
 }
+
+.portfolio {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.portfolio-item {
+  flex: 1;
+  text-align: center;
+  background-color: #d62828;
+  padding-left: 0%;
+  min-width: 200px;
+  
+}

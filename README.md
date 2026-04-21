@@ -25,6 +25,8 @@ This project redesigns Pete's artist portfolio website from a narrow, vertical l
    
 ## Design Decisions
 
+- about body text is left aligned and has a 40% maregin to achieve desired distance from the circle image
+
 ### Header 
    - Added Flex box property to Header
    - Changed Font of "Pete | Artist " to align more with the design provided 
@@ -35,11 +37,22 @@ This project redesigns Pete's artist portfolio website from a narrow, vertical l
 ## Lessons / Challenges
 - Learned that in order to achieve the layout specified in the design the Header flex direction had to be row rather than column 
 
+- About Section: 
+
+      - I learned that I had to put both the image and the text body under one parent div so that they could show in the same row
+      - Adjusted the margin on the text body to achieve desire distance
+
+- Portfolio 
+![Portfolio](image-4.png)
+   - Added css class to parent div and then created portfolio-items style component 
+   - I h
+    
 
 ## Github commit history and screenshots illustritating this decision 
 Commit 1: Initializing project with README Requirements 
 Commit 2 : Header modifications
 ![Header changes](image-2.png)
+![About changes](image-3.png)
 
 
 
