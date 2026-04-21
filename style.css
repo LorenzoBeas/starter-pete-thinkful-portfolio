@@ -42,12 +42,10 @@ div {
 
 article {
   padding: 50px 0;
+  
 }
 
-article div {
-  text-align: center;
-  width: 100%;
-}
+
 
 /* Paragraphs */
 p {
@@ -87,4 +85,12 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.about {
+  
+  margin-left: 40%;
+  text-align: left;
+
+
 }
