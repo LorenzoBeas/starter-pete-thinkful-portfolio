@@ -95,18 +95,39 @@ hr {
 
 }
 
-.portfolio {
+/* .portfolio {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: flex-start;
+} */
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .portfolio-item {
-  flex: 1;
   text-align: center;
-  background-color: #d62828;
-  padding-left: 0%;
-  min-width: 200px;
-  
+  text-wrap: pretty;
+  flex: 1;
+  min-width: 150px;
+  max-width: 200px;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.portfolio-item div {
+  width: 100%;
+  margin: 0;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  width: 100%;
 }
