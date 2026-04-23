@@ -11,7 +11,8 @@ body {
 /* Headings */
 h1
 {
-  font-family:"Source Sans Pro", Tahoma, Geneva;
+  font:  Tahoma;
+  font-weight: lighter;
   
   font-size: 2em;
   margin: 0;
@@ -21,6 +22,8 @@ h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+  padding: 5%;
+  font-weight: light;
 }
 
 /* Header */

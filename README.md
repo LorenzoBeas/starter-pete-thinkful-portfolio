@@ -25,13 +25,26 @@ This project redesigns Pete's artist portfolio website from a narrow, vertical l
    
 ## Design Decisions
 
-- about body text is left aligned and has a 40% maregin to achieve desired distance from the circle image
+- Background colo looks similar to design so will leave as is 
+- about body text is left aligned and has a 40% margin to achieve desired distance from the circle image
+- I set the font wheight to lighter and light on the headings in the page since the design looked different than the standard version of those fonts 
 
 ### Header 
    - Added Flex box property to Header
    - Changed Font of "Pete | Artist " to align more with the design provided 
    - Tweaked the padding so that the header elements maintained stylized spacing
+### About 
+- about body text is left aligned and has a 40% margin to achieve desired distance from the circle image
 
+### Portfolio
+- Portfolio container : 
+   flex-wrap: wrap,
+   justify-content: center, 
+   width: 100%,
+   margin: 0 auto
+   This centers the portfolio items and keeps them contained
+- Portfolio Items Divs and Images : 
+   Added specific CSS rules for div and img elements inside portfolio items to override the global styles. This allows images to scale to 100% of their container
 
 
 ## Lessons / Challenges
@@ -45,14 +58,18 @@ This project redesigns Pete's artist portfolio website from a narrow, vertical l
 - Portfolio 
 ![Portfolio](image-4.png)
    - Added css class to parent div and then created portfolio-items style component 
-   - I h
+   - I also created another div to encapsulate all portfolio items after the title because having the title be assigned the porfolio class was making it line up in a row like the other items 
+   - 
     
 
 ## Github commit history and screenshots illustritating this decision 
 Commit 1: Initializing project with README Requirements 
 Commit 2 : Header modifications
+Commit 3: About modifications 
+Commit 4: Portfolio Changes
 ![Header changes](image-2.png)
 ![About changes](image-3.png)
+![Portfolio changes](image-5.png)
 
 
 
